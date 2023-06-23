@@ -1,0 +1,29 @@
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header-icons a {
+    font-size: 0.9rem;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+.header-icons a:hover {
+    color: var(--color-danger);
+}
+
+.course__info p {
+    margin-bottom: 0.3rem;
+}
+.course__info .iconkur p i {
+    margin-right: 1rem;
+}
+
+.course__info .iconkur a {
+    margin-top: 2rem;
+}
